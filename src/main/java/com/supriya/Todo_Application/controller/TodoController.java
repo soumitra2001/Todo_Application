@@ -42,7 +42,6 @@ public class TodoController {
         return  todoService.addMyTodo(todo);
     }
 
-    ///////////////////////
 
     @DeleteMapping(value = "/deleteTodoById/{id}")
     public String deleteTodoById(@PathVariable String id)
@@ -50,16 +49,14 @@ public class TodoController {
         return todoService.removeTodoById(id);
     }
 
-    //////////////////////
-    //Updation of todo
+
+    //Update a todo
 
     @PutMapping(value = "/updateTodoById/{id}/{status}")
     public String updateTodoStatusById(@PathVariable String id, @PathVariable String status)
     {
         return todoService.updateTodoStatusById(id,status);
     }
-
-
 
 
 
