@@ -50,7 +50,7 @@ Please note that the application assumes the usage of appropriate HTTP methods (
 - List
 
 ## Contribution
-Contributions to the Todo_Application project are welcome. If you would like to contribute, please refer to the guidelines outlined in the CONTRIBUTING.md file. Bug fixes, feature enhancements, and documentation improvements are highly appreciated.
+Contributions to the Todo-application are welcome. If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
 ## Project Summary :
 
